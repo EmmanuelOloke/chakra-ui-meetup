@@ -1,5 +1,8 @@
+import React from 'react';
+import Banner from './components/Banner';
+
 function App() {
-  return <div className="App">Nice and Clean!!!</div>;
+  return <Banner />;
 }
 
 export default App;
