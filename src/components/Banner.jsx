@@ -57,8 +57,8 @@ const Banner = () => {
         <Grid templateColumns="repeat(3, 1fr)">
           <Box>
             <Image w="100%" borderRadius="lg" src={imageOne} alt="image one" />
-            <Button>
-              Make new friends
+            <Button colorScheme="teal" variant="link" mt="5">
+              Explore the outdoors
               <Image
                 w="100%"
                 ml="2"
@@ -69,7 +69,7 @@ const Banner = () => {
           </Box>
           <Box>
             <Image w="100%" borderRadius="lg" src={imageTwo} alt="image two" />
-            <Button>
+            <Button colorScheme="teal" variant="link" mt="5">
               It will help your life
               <Image
                 w="100%"
@@ -86,7 +86,7 @@ const Banner = () => {
               src={imageThree}
               alt="image three"
             />
-            <Button>
+            <Button colorScheme="teal" variant="link" mt="5">
               I say network
               <Image
                 w="100%"
