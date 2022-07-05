@@ -1,4 +1,12 @@
-import { Box, Image, Button, Container, Heading, Grid } from '@chakra-ui/react';
+import {
+  Box,
+  Image,
+  Button,
+  Container,
+  Heading,
+  Grid,
+  Badge,
+} from '@chakra-ui/react';
 
 import brandLogo from '../assets/brand-logo.svg';
 import illustration from '../assets/illustration.svg';
@@ -97,6 +105,107 @@ const Banner = () => {
             </Button>
           </Box>
         </Grid>
+      </Container>
+
+      {/* PILLS */}
+      <Container maxW="container.xl" mt={10}>
+        <Box
+          direction="row"
+          display="flex"
+          flexWrap="wrap"
+          justifyContent="space-between"
+        >
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Boost your career
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Find your zen
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Get moving
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Share language + culture
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Read with friends
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Write together
+          </Badge>
+
+          <Badge
+            borderRadius="3xl"
+            px={4}
+            py={2}
+            mr="4"
+            mb="4"
+            textTransform="normal"
+            color="#ffffff"
+            bg="blue.100"
+          >
+            Hone your craft
+          </Badge>
+        </Box>
       </Container>
     </>
   );
