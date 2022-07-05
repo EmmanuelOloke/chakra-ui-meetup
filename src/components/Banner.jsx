@@ -57,11 +57,27 @@ const Banner = () => {
         <Grid templateColumns="repeat(3, 1fr)">
           <Box>
             <Image w="100%" borderRadius="lg" src={imageOne} alt="image one" />
-            Make new friends
+            <Button>
+              Make new friends
+              <Image
+                w="100%"
+                ml="2"
+                src="https://secure.meetupstatic.com/next/images/shared/right-arrow.svg"
+                alt="right arrow"
+              />
+            </Button>
           </Box>
           <Box>
             <Image w="100%" borderRadius="lg" src={imageTwo} alt="image two" />
-            It will help your life
+            <Button>
+              It will help your life
+              <Image
+                w="100%"
+                ml="2"
+                src="https://secure.meetupstatic.com/next/images/shared/right-arrow.svg"
+                alt="right arrow"
+              />
+            </Button>
           </Box>
           <Box>
             <Image
@@ -70,7 +86,15 @@ const Banner = () => {
               src={imageThree}
               alt="image three"
             />
-            I say network!!
+            <Button>
+              I say network
+              <Image
+                w="100%"
+                ml="2"
+                src="https://secure.meetupstatic.com/next/images/shared/right-arrow.svg"
+                alt="right arrow"
+              />
+            </Button>
           </Box>
         </Grid>
       </Container>
