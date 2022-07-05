@@ -1,7 +1,10 @@
-import { Box, Image, Button, Container, Heading } from '@chakra-ui/react';
+import { Box, Image, Button, Container, Heading, Grid } from '@chakra-ui/react';
 
 import brandLogo from '../assets/brand-logo.svg';
 import illustration from '../assets/illustration.svg';
+import imageOne from '../assets/image-one.jpeg';
+import imageTwo from '../assets/image-two.jpeg';
+import imageThree from '../assets/image-three.jpeg';
 
 const Banner = () => {
   return (
@@ -50,7 +53,27 @@ const Banner = () => {
         </Container>
       </Box>
 
-      <Container maxWidth="container.xl" mt={10}></Container>
+      <Container maxWidth="container.xl" mt={10}>
+        <Grid templateColumns="repeat(3, 1fr)">
+          <Box>
+            <Image w="100%" borderRadius="lg" src={imageOne} alt="image one" />
+            Make new friends
+          </Box>
+          <Box>
+            <Image w="100%" borderRadius="lg" src={imageTwo} alt="image two" />
+            It will help your life
+          </Box>
+          <Box>
+            <Image
+              w="100%"
+              borderRadius="lg"
+              src={imageThree}
+              alt="image three"
+            />
+            I say network!!
+          </Box>
+        </Grid>
+      </Container>
     </>
   );
 };
