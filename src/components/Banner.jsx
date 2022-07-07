@@ -66,7 +66,7 @@ const Banner = () => {
           <Box>
             <Image w="100%" borderRadius="lg" src={imageOne} alt="image one" />
             <Button colorScheme="teal" variant="link" mt="5">
-              Explore the outdoors
+              Make new friends
               <Image
                 w="100%"
                 ml="2"
@@ -78,7 +78,7 @@ const Banner = () => {
           <Box>
             <Image w="100%" borderRadius="lg" src={imageTwo} alt="image two" />
             <Button colorScheme="teal" variant="link" mt="5">
-              It will help your life
+              Explore the outdoors
               <Image
                 w="100%"
                 ml="2"
@@ -95,7 +95,7 @@ const Banner = () => {
               alt="image three"
             />
             <Button colorScheme="teal" variant="link" mt="5">
-              I say network
+              Connect over tech
               <Image
                 w="100%"
                 ml="2"
