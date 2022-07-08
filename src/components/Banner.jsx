@@ -6,6 +6,8 @@ import {
   Heading,
   Grid,
   Badge,
+  FormControl,
+  Input,
 } from '@chakra-ui/react';
 
 import brandLogo from '../assets/brand-logo.svg';
@@ -206,6 +208,88 @@ const Banner = () => {
             Hone your craft
           </Badge>
         </Box>
+      </Container>
+
+      {/* Last Header Section*/}
+
+      <Container maxW="container.xl" mt={20}>
+        <Grid templateColumns="repear(2, 1fr)" gap={6}>
+          <Box>
+            <Heading as="h3" size="lg" mb="7">
+              What do you want to do?
+            </Heading>
+            <Box d="flex" alignItems="center" flexDirection="row" w="100%">
+              <Box flexBasis={'50%'} mr="2">
+                <FormControl id="email">
+                  <Box pos="relative">
+                    <Input
+                      pl="8"
+                      placeholder="Search for 'tennis'"
+                      type="text"
+                    ></Input>
+                    <Box pos="absolute" top="3" left="2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 20 20"
+                        fill="#d9d9d9"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.47614.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </Box>
+                  </Box>
+                </FormControl>
+              </Box>
+
+              <Box flexBasis="50%" ml="2">
+                <FormControl id="email">
+                  <Box pos="relative">
+                    <Input
+                      pl="8"
+                      placeholder="Search for 'tennis'"
+                      type="text"
+                    ></Input>
+                    <Box pos="absolute" top="3" left="2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 20 20"
+                        fill="#d9d9d9"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </Box>
+                  </Box>
+                </FormControl>
+              </Box>
+            </Box>
+
+            <Button
+              _hover={{ opacity: '0.8' }}
+              mt="5"
+              pt="6"
+              pb="6"
+              w="100%"
+              color="#ffffff"
+              bg="red.200"
+              fontSize="lg"
+            >
+              <Box fontWeight="black">Search</Box>
+            </Button>
+          </Box>
+
+          <Box>jjj</Box>
+        </Grid>
       </Container>
     </>
   );

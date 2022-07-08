@@ -14,7 +14,7 @@ const customTheme = extendTheme({
         },
         red: {
             100: '#ff3d3d',
-            200: 'f77070'
+            200: '#f77070'
         },
     },
     fonts: {
