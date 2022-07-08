@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Heading, Link } from '@chakra-ui/react';
 
-const UpcomingMeets = () => {
+const Upcoming = () => {
   return (
     <Box mt="20">
       <Container maxWidth="container.xl">
@@ -28,4 +28,4 @@ const UpcomingMeets = () => {
   );
 };
 
-export default UpcomingMeets;
+export default Upcoming;
