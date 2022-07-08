@@ -251,7 +251,7 @@ const Banner = () => {
                   <Box pos="relative">
                     <Input
                       pl={'8'}
-                      placeholder="Search for 'tennis'"
+                      placeholder="Neighborhood or City or zip"
                       type="text"
                     />
                     <Box pos="absolute" top="3" left="2">
