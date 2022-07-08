@@ -29,9 +29,9 @@ const ItWorks = () => {
             <Image w="100%" boxSize="160px" src={joinGroup} alt="brand" />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Link color="blue.100" pb="4">
                   Join a Group
-                </Box>
+                </Link>
               </Link>
             </Heading>
             <p>
@@ -43,9 +43,9 @@ const ItWorks = () => {
             <Image w="100%" boxSize="160px" src={ticket} alt="brand" />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Link color="blue.100" pb="4">
                   Find a event
-                </Box>
+                </Link>
               </Link>
             </Heading>
             <p>
@@ -57,9 +57,9 @@ const ItWorks = () => {
             <Image w="100%" boxSize="160px" src={startGroup} alt="brand" />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Link color="blue.100" pb="4">
                   Start a group
-                </Box>
+                </Link>
               </Link>
             </Heading>
             <p>
