@@ -1,5 +1,13 @@
 import React from 'react';
-import { Box, Container, Heading, Grid, Image, Link } from '@chakra-ui/react';
+import {
+  Box,
+  Container,
+  Heading,
+  Grid,
+  Image,
+  Link,
+  Button,
+} from '@chakra-ui/react';
 import joinGroup from '../assets/joinagroup.svg';
 import ticket from '../assets/ticket.svg';
 import startGroup from '../assets/start-group.svg';
@@ -60,6 +68,18 @@ const ItWorks = () => {
             </p>
           </Box>
         </Grid>
+
+        <Box align="center" mt="16">
+          <Button
+            _hover={{ opacity: '0.8' }}
+            bg="blue.100"
+            color="#ffffff"
+            fontWeight="normal"
+            size="md"
+          >
+            Join Meetup
+          </Button>
+        </Box>
       </Container>
     </Box>
   );
