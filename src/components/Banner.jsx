@@ -213,20 +213,20 @@ const Banner = () => {
       {/* Last Header Section*/}
 
       <Container maxW="container.xl" mt={20}>
-        <Grid templateColumns="repear(2, 1fr)" gap={6}>
+        <Grid templateColumns="repeat(2, 1fr)" gap={6}>
           <Box>
             <Heading as="h3" size="lg" mb="7">
               What do you want to do?
             </Heading>
-            <Box d="flex" alignItems="center" flexDirection="row" w="100%">
-              <Box flexBasis={'50%'} mr="2">
+            <Box display="flex" alignItems="center">
+              <Box flexBasis="50%" mr="2">
                 <FormControl id="email">
                   <Box pos="relative">
                     <Input
-                      pl="8"
+                      pl={'8'}
                       placeholder="Search for 'tennis'"
                       type="text"
-                    ></Input>
+                    />
                     <Box pos="absolute" top="3" left="2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -237,7 +237,7 @@ const Banner = () => {
                       >
                         <path
                           fillRule="evenodd"
-                          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.47614.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                           clipRule="evenodd"
                         />
                       </svg>
@@ -250,10 +250,10 @@ const Banner = () => {
                 <FormControl id="email">
                   <Box pos="relative">
                     <Input
-                      pl="8"
+                      pl={'8'}
                       placeholder="Search for 'tennis'"
                       type="text"
-                    ></Input>
+                    />
                     <Box pos="absolute" top="3" left="2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -288,7 +288,97 @@ const Banner = () => {
             </Button>
           </Box>
 
-          <Box>jjj</Box>
+          <Box>
+            <Heading as="h3" size="lg" mb="7">
+              See what’s happening
+            </Heading>
+            <Box display="flex" flexWrap="wrap" justifyContent="flex-start">
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                Starting soon
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                Today
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                Tomorrow
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                This Week
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                Online
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                In person
+              </Badge>
+              <Badge
+                borderRadius="3xl"
+                px={5}
+                py={2}
+                mr="4"
+                mb="4"
+                color="#ffffff"
+                textTransform="normal"
+                bg="blue.100"
+              >
+                Trending near you
+              </Badge>
+            </Box>
+          </Box>
         </Grid>
       </Container>
     </>
