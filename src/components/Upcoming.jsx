@@ -272,7 +272,7 @@ const Upcoming = () => {
               </Box>
             </Box>
             <Box mt="3" color="#877457" fontWeight="semibold">
-              Sat, Aug 14 @ 9:45 PM NPT
+              Sat, Aug 14 @ 9:45 PM WAT
             </Box>
             <Heading
               alignItems="center"
