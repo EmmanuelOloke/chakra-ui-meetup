@@ -23,11 +23,21 @@ const Stories = () => {
           </Box>
         </Box>
 
-        <Grid mt="10" mb="40" templateColumns="repeat(3, 1fr)" gap={6}>
+        <Grid
+          mt="10"
+          mb="40"
+          templateColumns={{
+            sm: 'repeat(2, 1fr)',
+            md: 'repeat(3, 1fr)',
+            lg: 'repeat(3, 1fr)',
+            xl: 'repeat(3, 1fr)',
+            base: 'repeat(1, 1fr)',
+          }}
+          gap={6}
+        >
           <Box width="100%" align="left">
             <Link>
               <Image
-                position="relative"
                 src={Storyone}
                 _hover={{ opacity: '0.8' }}
                 alt="brand"
@@ -60,7 +70,6 @@ const Stories = () => {
           <Box width="100%" align="left">
             <Link>
               <Image
-                position="relative"
                 src={Storytwo}
                 _hover={{ opacity: '0.8' }}
                 alt="brand"
@@ -93,7 +102,6 @@ const Stories = () => {
           <Box width="100%" align="left">
             <Link>
               <Image
-                position="relative"
                 src={Storythree}
                 alt="brand"
                 _hover={{ opacity: '0.8' }}
