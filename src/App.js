@@ -4,6 +4,7 @@ import ItWorks from './components/ItWorks';
 import Upcoming from './components/Upcoming';
 import Popular from './components/Popular';
 import Connected from './components/Connected';
+import Stories from './components/Stories';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Upcoming />
       <Popular />
       <Connected />
+      <Stories />
     </>
   );
 }
