@@ -5,6 +5,7 @@ import Upcoming from './components/Upcoming';
 import Popular from './components/Popular';
 import Connected from './components/Connected';
 import Stories from './components/Stories';
+import FooterBottom from './components/FooterBottom';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Popular />
       <Connected />
       <Stories />
+      <FooterBottom />
     </>
   );
 }
