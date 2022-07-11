@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import ItWorks from './components/ItWorks';
 import Upcoming from './components/Upcoming';
 import Popular from './components/Popular';
+import Connected from './components/Connected';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ItWorks />
       <Upcoming />
       <Popular />
+      <Connected />
     </>
   );
 }
