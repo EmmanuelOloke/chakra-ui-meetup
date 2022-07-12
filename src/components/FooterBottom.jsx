@@ -160,6 +160,11 @@ const FooterBottom = () => {
               </Link>
             </Box>
           </Box>
+
+          <Box display="flex">
+            <Image w="140px" p="3" src={androidAppstore}></Image>
+            <Image w="140px" p="3" src={iosAppstore}></Image>
+          </Box>
         </Box>
       </Container>
     </Box>
