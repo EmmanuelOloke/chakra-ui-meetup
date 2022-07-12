@@ -166,6 +166,25 @@ const FooterBottom = () => {
             <Image w="140px" p="3" src={iosAppstore}></Image>
           </Box>
         </Box>
+
+        {/* bottom links */}
+        <Box display="flex" mt="20">
+          <Box mr="5" fontSize="sm">
+            © 2022 Meetup
+          </Box>
+          <Link mr="5" fontSize="sm" _hover={{ opacity: '0.8' }}>
+            Terms of service
+          </Link>
+          <Link mr="5" fontSize="sm" _hover={{ opacity: '0.8' }}>
+            Privacy Policy
+          </Link>
+          <Link mr="5" fontSize="sm" _hover={{ opacity: '0.8' }}>
+            Cookie Policy
+          </Link>
+          <Link mr="5" fontSize="sm" _hover={{ opacity: '0.8' }}>
+            Help
+          </Link>
+        </Box>
       </Container>
     </Box>
   );
