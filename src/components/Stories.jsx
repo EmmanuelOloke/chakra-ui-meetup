@@ -49,7 +49,7 @@ const Stories = () => {
                 <Heading
                   alignItems="center"
                   as="h6"
-                  fontweight="black"
+                  fontWeight="black"
                   size="md"
                   pt="4"
                   pb="4"
@@ -81,7 +81,7 @@ const Stories = () => {
                 <Heading
                   alignItems="center"
                   as="h6"
-                  fontweight="black"
+                  fontWeight="black"
                   size="md"
                   pt="4"
                   pb="4"
@@ -113,7 +113,7 @@ const Stories = () => {
                 <Heading
                   alignItems="center"
                   as="h6"
-                  fontweights="black"
+                  fontWeight="black"
                   size="md"
                   pt="4"
                   pb="4"
