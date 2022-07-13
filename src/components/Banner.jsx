@@ -357,8 +357,19 @@ const Banner = () => {
           </Box>
 
           <Box>
-            <Heading as="h3" size="lg" mb="7">
-              See what’s happening
+            <Heading
+              as="h3"
+              size="lg"
+              mb="7"
+              display={{
+                sm: 'none',
+                md: 'block',
+                lg: 'block',
+                xl: 'block',
+                base: 'none',
+              }}
+            >
+              See what's happening
             </Heading>
             <Box display="flex" flexWrap="wrap" justifyContent="flex-start">
               <Badge
