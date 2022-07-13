@@ -21,10 +21,19 @@ const ItWorks = () => {
         </Heading>
         <Box align="center" maxW="700px" mx="auto" pb="10">
           Meet new people who share your interests through online and in-person
-          events. It’s free to create an account.
+          events. It's free to create an account.
         </Box>
 
-        <Grid templateColumns="repeat(3, 1fr)" gap="6">
+        <Grid
+          templateColumns={{
+            sm: 'repeat(1, 1fr)',
+            md: 'repeat(3, 1fr)',
+            lg: 'repeat(3, 1fr)',
+            xl: 'repeat(3, 1fr)',
+            base: 'repeat(1, 1fr)',
+          }}
+          gap="6"
+        >
           <Box mx="auto" align="center">
             <Image w="100%" boxSize="160px" src={joinGroup} alt="brand" />
             <Heading as="h5" size="md">
