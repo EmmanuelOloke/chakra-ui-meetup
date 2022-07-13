@@ -40,7 +40,16 @@ const FooterBottom = () => {
           alignItems="top"
           gap={4}
         >
-          <Box flex="1">
+          <Box
+            flex="1"
+            mb={{
+              sm: '10',
+              md: '0',
+              lg: '0',
+              xl: '0',
+              base: '4',
+            }}
+          >
             <Heading size="sm">Your Account</Heading>
             <List mt="4" spacing={2}>
               <ListItem>
@@ -57,7 +66,16 @@ const FooterBottom = () => {
             </List>
           </Box>
 
-          <Box flex="1">
+          <Box
+            flex="1"
+            mb={{
+              sm: '10',
+              md: '0',
+              lg: '0',
+              xl: '0',
+              base: '4',
+            }}
+          >
             <Heading size="sm">Discover</Heading>
             <List mt="4" spacing={2}>
               <ListItem>
@@ -86,7 +104,16 @@ const FooterBottom = () => {
             </List>
           </Box>
 
-          <Box flex="1">
+          <Box
+            flex="1"
+            mb={{
+              sm: '10',
+              md: '0',
+              lg: '0',
+              xl: '0',
+              base: '4',
+            }}
+          >
             <Heading size="sm">Meetup</Heading>
             <List mt="4" spacing={2}>
               <ListItem>
@@ -114,7 +141,25 @@ const FooterBottom = () => {
 
         {/* follow and app icons */}
 
-        <Box mt="50" display="flex" justifyContent="space-between">
+        <Box
+          mt="50"
+          display="flex"
+          flexDirection={{
+            sm: 'column',
+            md: 'row',
+            lg: 'row',
+            xl: 'row',
+            base: 'column',
+          }}
+          justifyContent="space-between"
+          alignItems={{
+            sm: 'left',
+            md: 'center',
+            lg: 'center',
+            xl: 'center',
+            base: 'left',
+          }}
+        >
           <Box display="flex" flexDirection="column">
             <Box mb="2">Follow us</Box>
             <Box display="flex">
@@ -172,9 +217,12 @@ const FooterBottom = () => {
             </Box>
           </Box>
 
-          <Box display="flex">
-            <Image w="140px" p="3" src={androidAppstore}></Image>
-            <Image w="140px" p="3" src={iosAppstore}></Image>
+          <Box
+            display="flex"
+            mt={{ sm: '4', md: '0', lg: '0', xl: '0', base: '4' }}
+          >
+            <Image w="140px" mr="6" src={androidAppstore}></Image>
+            <Image w="140px" src={iosAppstore}></Image>
           </Box>
         </Box>
 
