@@ -227,7 +227,17 @@ const FooterBottom = () => {
         </Box>
 
         {/* bottom links */}
-        <Box display="flex" mt="20">
+        <Box
+          display="flex"
+          mt="20"
+          flexWrap={{
+            sm: 'wrap',
+            md: 'no-wrap',
+            lg: 'no-wrap',
+            xl: 'no-wrap',
+            base: 'wrap',
+          }}
+        >
           <Box mr="5" fontSize="sm">
             © 2022 Meetup
           </Box>
