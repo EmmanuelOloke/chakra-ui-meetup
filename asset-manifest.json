@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/chakra-ui-meetup/static/js/main.b74b4dfb.js",
+    "static/media/illustration.svg": "/chakra-ui-meetup/static/media/illustration.505ea2837d9a4d2a2e8e2d8ee9e12769.svg",
+    "static/media/joinagroup.svg": "/chakra-ui-meetup/static/media/joinagroup.c11bf50c8f4a1f22eb91e849ca73fdad.svg",
+    "static/media/image-three.jpeg": "/chakra-ui-meetup/static/media/image-three.d434cf3036ef390d19ed.jpeg",
+    "static/media/device-right.webp": "/chakra-ui-meetup/static/media/device-right.85dd039e62c6301969bb.webp",
+    "static/media/device-left.webp": "/chakra-ui-meetup/static/media/device-left.bffc3df01480f102c2e0.webp",
+    "static/media/image-two.jpeg": "/chakra-ui-meetup/static/media/image-two.6a1da8d9fb6f1c5e143c.jpeg",
+    "static/media/story-three.jpg": "/chakra-ui-meetup/static/media/story-three.66f6154117ea52d62956.jpg",
+    "static/media/android-download.svg": "/chakra-ui-meetup/static/media/android-download.3fe008b5c419bbf19b755b60546db2c9.svg",
+    "static/media/story-one.jpg": "/chakra-ui-meetup/static/media/story-one.66397c930b1392a14538.jpg",
+    "static/media/ios-download.svg": "/chakra-ui-meetup/static/media/ios-download.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "static/media/image-one.jpeg": "/chakra-ui-meetup/static/media/image-one.4f9ed8220f935285bb7d.jpeg",
+    "static/media/brand-logo.svg": "/chakra-ui-meetup/static/media/brand-logo.97d3ab2b6dd6a8e348175a6dd4d840aa.svg",
+    "static/media/start-group.svg": "/chakra-ui-meetup/static/media/start-group.47821ec6dc1a5a0f39dda9048a682012.svg",
+    "static/media/meetup-logo.svg": "/chakra-ui-meetup/static/media/meetup-logo.d2bc0dedd975e0b3de4e7f662c5b7517.svg",
+    "static/media/ticket.svg": "/chakra-ui-meetup/static/media/ticket.c23236d510eff848ea6fa82d78698788.svg",
+    "static/media/bg.svg": "/chakra-ui-meetup/static/media/bg.fc3b01608c7a1e8d22f17a70563a9d9b.svg",
+    "index.html": "/chakra-ui-meetup/index.html",
+    "main.b74b4dfb.js.map": "/chakra-ui-meetup/static/js/main.b74b4dfb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b74b4dfb.js"
+  ]
+}
