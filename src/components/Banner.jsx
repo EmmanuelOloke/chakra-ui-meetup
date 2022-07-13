@@ -255,8 +255,29 @@ const Banner = () => {
             <Heading as="h3" size="lg" mb="7">
               What do you want to do?
             </Heading>
-            <Box display="flex" alignItems="center">
-              <Box flexBasis="50%" mr="2">
+            <Box
+              display="flex"
+              alignItems="center"
+              flexDirection={{
+                sm: 'columns',
+                md: 'row',
+                lg: 'row',
+                xl: 'row',
+                base: 'column',
+              }}
+              w="100%"
+            >
+              <Box
+                flexBasis={{
+                  sm: '100%',
+                  md: '50%',
+                  lg: '50%',
+                  xl: '50%',
+                  base: '100%',
+                }}
+                w="100%"
+                mr={{ sm: '0', md: '2', lg: '2', xl: '2', base: '0' }}
+              >
                 <FormControl id="email">
                   <Box pos="relative">
                     <Input
@@ -283,7 +304,17 @@ const Banner = () => {
                 </FormControl>
               </Box>
 
-              <Box flexBasis="50%" ml="2">
+              <Box
+                flexBasis={{
+                  sm: '100%',
+                  md: '50%',
+                  lg: '50%',
+                  xl: '50%',
+                  base: '100%',
+                }}
+                w="100%"
+                ml={{ sm: '0', md: '2', lg: '2', xl: '2', base: '0' }}
+              >
                 <FormControl id="email">
                   <Box pos="relative">
                     <Input
