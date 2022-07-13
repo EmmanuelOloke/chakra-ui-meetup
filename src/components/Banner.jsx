@@ -41,7 +41,19 @@ const Banner = () => {
 
       <Box>
         <Container maxWidth="container.xl">
-          <Box display="flex" alignItems="center" py="20" flexDirection="row">
+          {/* main punch text */}
+          <Box
+            display="flex"
+            alignItems="center"
+            py="20"
+            flexDirection={{
+              sm: 'column',
+              md: 'row',
+              lg: 'row',
+              xl: 'row',
+              base: 'column',
+            }}
+          >
             <Box mr="6">
               <Heading as="h1" size="2xl">
                 <Box fontweight="black">
@@ -63,8 +75,18 @@ const Banner = () => {
         </Container>
       </Box>
 
+      {/* three boxes */}
       <Container maxWidth="container.xl" mt={10}>
-        <Grid templateColumns="repeat(3, 1fr)">
+        <Grid
+          templateColumns={{
+            sm: 'repeat(1, 1fr)',
+            md: 'repeat(3, 1fr)',
+            lg: 'repeat(3, 1fr)',
+            xl: 'repeat(3, 1fr)',
+            base: 'repeat(1, 1fr)',
+          }}
+          gap={6}
+        >
           <Box>
             <Image w="100%" borderRadius="lg" src={imageOne} alt="image one" />
             <Button colorScheme="teal" variant="link" mt="5">
@@ -115,7 +137,14 @@ const Banner = () => {
           direction="row"
           display="flex"
           flexWrap="wrap"
-          justifyContent="space-between"
+          justifyContent={{
+            sm: 'flex-start',
+            md: 'space-between',
+            lg: 'space-between',
+            xl: 'space-between',
+            base: 'flex-start',
+          }}
+          my={10}
         >
           <Badge
             borderRadius="3xl"
