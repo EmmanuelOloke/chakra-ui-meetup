@@ -28,7 +28,18 @@ const FooterBottom = () => {
 
         <Divider my="10" />
 
-        <Box display="flex" alignItems="top">
+        <Box
+          display="flex"
+          flexDirection={{
+            sm: 'column',
+            md: 'row',
+            lg: 'row',
+            xl: 'row',
+            base: 'column',
+          }}
+          alignItems="top"
+          gap={4}
+        >
           <Box flex="1">
             <Heading size="sm">Your Account</Heading>
             <List mt="4" spacing={2}>
