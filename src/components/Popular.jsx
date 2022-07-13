@@ -35,7 +35,15 @@ const Popular = () => {
           </Box>
         </Box>
 
-        <Grid templateColumns="repeat(3, 1fr)">
+        <Grid
+          templateColumns={{
+            sm: 'repeat(1, 1fr)',
+            md: 'repeat(3, 1fr)',
+            lg: 'repeat(3, 1fr)',
+            xl: 'repeat(3, 1fr)',
+            base: 'repeat(1, 1fr)',
+          }}
+        >
           <Box
             border="1px"
             borderColor="gray.200"
